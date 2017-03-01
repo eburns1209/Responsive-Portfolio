@@ -245,3 +245,90 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px){
+    body{
+      background-color: green;
+    }
+.work{
+  float: none;
+}
+nav {
+  float: none;
+  display: block;
+}
+  .main-section {
+    width: 100%;
+    float: none;
+    
+      }
+
+  .sidebar {
+  width: 100%;
+  float: none;
+  
+  }
+/*
+  #main-container{
+    padding-top: 100px;
+  }
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+*/  
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  
+      body {
+  background-color: purple;
+         }
+
+  nav {
+  float: none;
+  display: block;
+      }
+
+    .main-section {
+    width: 100%;
+    float: none;
+      }
+
+  .sidebar {
+  width: 100%;
+  float: none;
+  }
+
+}
+  
+
+@media screen and (max-width: 640px){
+
+  body{
+    background-color: yellow;
+  }
+nav {
+  float: none;
+  display: block;
+}
+
+  .main-section {
+    width: 100%;
+    float: none;
+      }
+
+  .sidebar {
+  width: 100%;
+  float: none;
+  }
+
+}
+
+
